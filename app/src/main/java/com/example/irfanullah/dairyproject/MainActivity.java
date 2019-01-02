@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void intiObjects(){
         welcome = findViewById(R.id.welcomeTxt);
+        //something
         //1
         Bundle bundle = getIntent().getExtras();
         String username = bundle.getString("username");
